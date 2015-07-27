@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: "LatoLight";
+    src: url("../fonts/LatoLight/LatoLight.eot");
+    src: url("../fonts/LatoLight/LatoLight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/LatoLight/LatoLight.woff") format("woff"),
+    url("../fonts/LatoLight/LatoLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+* {
+	font-family: LatoLight;
+}
+
+body {
+		background: #efefef url(../img/background.png) repeat top center;
+}
+
+
+.container {
+  margin: 0 auto;
+  padding: 15px 0 0 0;
+  width: 800px;
+}
+
+.box {
+  margin: 0 0 20px 0;
+  background: #fff;
+  overflow: hidden;
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  -webkit-box-shadow: 0px 2px 1px 1px rgba(0,0,0,0.21);
+  -moz-box-shadow: 0px 2px 1px 1px rgba(0,0,0,0.21);
+  box-shadow: 0px 2px 1px 1px rgba(0,0,0,0.21);
+
+}
+
+
+.projdesc {
+  width: 570px;
+  overflow: hidden;
+  font-size: 20px;
+
+}
+.projdesc p{
+  padding: 10px;
+  text-align: center;
+}
